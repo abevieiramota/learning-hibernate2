@@ -80,11 +80,11 @@ public class Main {
 		props.put("hibernate.connection.driver_class",
 				"org.postgresql.Driver");
 		props.put("hibernate.connection.url",
-				"jdbc:postgresql://localhost/enterprisedb");
+				"jdbc:postgresql://localhost:5433/enterprisedb");
 		props.put("hibernate.connection.username",
-				"postgres");
+				"hibernate");
 		props.put("hibernate.connection.password",
-				"admin");
+				"hibernate");
 		props.put("hibernate.dialect",
 				"net.sf.hibernate.dialect.PostgreSQLDialect");
 				
